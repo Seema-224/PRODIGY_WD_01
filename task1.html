@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul class="list">
+            <li onclick="home1()">Home</li>
+            <li onclick="about1()">About</li>
+            <li onclick="contact1()">Contact</li>
+            <li onclick="login1()">Login</li>
+            <li onclick="theme1()">Theme</li>
+        </ul>
+    </div>
+
+    <div class="nav2">
+        <ul class="list2">
+            <li onclick="home1()">Home</li>
+            <li onclick="about1()">About</li>
+            <li onclick="contact1()">Contact</li>
+            <li onclick="login1()">Login</li>
+            <li onclick="theme1()">Theme</li>
+        </ul>
+        <div class="bars" onclick="btn()"><i class="fa-solid fa-bars"></i></div>
+    </div>
+
+    <div class="container">
+        <div id="home">
+            <a href="task2.html">
+                <img src="stopwatch1.png" alt="" srcset="">
+            </a>
+            <div>Stopwatch Web Application</div> <br>
+            <a href="task3.html">
+                <img src="task3.png" alt="" srcset="">
+            </a>
+            <div>Tic-Tac-Toe Web Application</div> <br>
+            <a href="task4.html">
+                <img src="potfolio.png" alt="" srcset="">
+            </a>
+            <div>Personal Portfolio Website</div>
+        </div>
+
+        <div id="about">
+            This is the first task for Prodigy Infotech, featuring a Responsive Landing Page. The design is fully
+            responsive, ensuring it adapts seamlessly across various devices, including phones and desktops, while
+            maintaining all features intact. A theme switcher has been integrated, allowing users to toggle between
+            light and dark modes for a tailored viewing experience. Additionally, I've incorporated links to the other
+            three tasks: Stopwatch Web Application, Tic-Tac-Toe Web Application, and Personal Portfolio Website, making
+            them easily accessible from this landing page. The navigation menu is fixed across all pages, providing
+            consistent access to key sections, and includes interactive hover effects for an enhanced user experience.
+        </div>
+
+        <div id="contact">
+            <h2 style="margin-left: 50px; font-weight: 2000;">Contact Details</h2>
+            <img src="dp.jpg" alt="">
+            <h3>Odisha,India</h2>
+                <h2 style="font-weight: 2000;">Seema</h2>
+                <h3>Phone: 1234567890</h3>
+                <h3>Email: abcd7686@gmail.com</h3>
+        </div>
+
+        <div id="login">
+            <form>
+                <h2 class="login" style="text-align: center;">Sign Up</h2>
+                <div class="login">Username: <input type="text" style="width: 200px;" placeholder="Enter your Username">
+                </div>
+                <div class="login">Bio: <br> <textarea style="width: 277px; height:50px;"
+                        placeholder="Write few lines about yourself"> </textarea></div>
+                <div class="login">E-mail: <input type="email" style="width: 225px;" placeholder="Enter your E-mail">
+                </div>
+                <div class="login">Date of Birth: <input type="date" style="width: 186px;"></div>
+                <div class="login">Gender: <input type="radio"> Male <input type="radio"> Female</div>
+                <div class="login">Password: <input type="password" style="width: 210px;"></div>
+                <div class="login" style="text-align: center;"><input type="submit" value="Submit"> <input type="reset"
+                        value="Reset"></div>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="task1.js"></script>
+
+</html>
